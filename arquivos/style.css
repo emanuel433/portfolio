@@ -1,21 +1,30 @@
 /*----RESET----*/
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 
-html {
-  scroll-behavior: smooth;
-}
+
+
 body {
   margin: 0;
   background-color: #045256;
   min-height: 100vh;
 }
 
+.title {
+  font-family: "Epilogue";
+  margin: 0;
+} 
+
+.text {
+  font-family: "Epilogue";
+  color: aliceblue;
+}
+
+.image {
+  width: 10px;
+  
+}
+
 .page {
-  width: 1000px;
+  
   margin: 0 auto;
   padding-top: 65px;
 }
