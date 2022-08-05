@@ -1,39 +1,28 @@
 /*----RESET----*/
 
-
-
 body {
   margin: 0;
-  background-color: #045256;
-  min-height: 100vh;
-}
-
-.title {
-  font-family: "Epilogue";
-  margin: 0;
-} 
-
-.text {
-  font-family: "Epilogue";
-  color: aliceblue;
-}
-
-#image {
-  width: 10%;
   
+font-family: 'Open Sans', sans-serif;
 }
 
 .page {
+  width: 1000px;
+  margin: 65px auto 0;  
+  background-color: darkcyan;
   
-  margin: 0 auto;
-  padding-top: 65px;
 }
 
 nav {
   display: flex;
-  justify-content: space-between;
+  justify-content:space-between;
   align-items: center;
-  margin-bottom: 55px;
+  margin-bottom: 55px; 
+  font-family: 'Mulish', sans-serif;
+}
+
+a{
+  text-decoration: none;
 }
 
 ul {
@@ -44,7 +33,18 @@ ul {
   padding: 0;
 }
 
-a {
-  color:greenyellow;
+ul li a {
+  color: chartreuse;
   text-decoration: none;
 }
+
+ul li a:hover {
+  font-weight: bold;
+}
+
+h1, ul {
+  font-family: 'Mulish', sans-serif;
+}
+
+
+
