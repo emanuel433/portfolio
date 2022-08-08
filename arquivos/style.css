@@ -2,12 +2,13 @@
 
 body {
   margin: 0;
-  
+  color:darkcyan ;
 font-family: 'Open Sans', sans-serif;
 }
 
 .page {
-  width: 1000px;
+  width: auto;
+  height: fit-content;
   margin: 65px auto 0;  
   background-color: darkcyan;
   
@@ -44,6 +45,13 @@ ul li a:hover {
 
 h1, ul {
   font-family: 'Mulish', sans-serif;
+}
+
+img {
+  height: 300px;
+  width: 300px;
+  background-position: 50px bottom;
+  border-radius: 8px;
 }
 
 
