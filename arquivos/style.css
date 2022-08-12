@@ -1,58 +1,40 @@
 /*----RESET----*/
-
-body {
+* {
   margin: 0;
-  color:darkcyan ;
-font-family: 'Open Sans', sans-serif;
-}
-
-.page {
-  width: auto;
-  height: fit-content;
-  margin: 65px auto 0;  
-  background-color: darkcyan;
-  
-}
-
-nav {
-  display: flex;
-  justify-content:space-between;
-  align-items: center;
-  margin-bottom: 55px; 
-  font-family: 'Mulish', sans-serif;
-}
-
-a{
-  text-decoration: none;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 ul {
-  display: flex;
-  gap: 48px;
   list-style: none;
-  margin: 0;
-  padding: 0;
 }
 
-ul li a {
-  color: chartreuse;
+a {
   text-decoration: none;
 }
 
-ul li a:hover {
-  font-weight: bold;
-}
-
-h1, ul {
-  font-family: 'Mulish', sans-serif;
-}
-
 img {
-  height: 300px;
-  width: 300px;
-  background-position: 50px bottom;
-  border-radius: 8px;
+  width: 100%;
+  height: auto;
+}
+/*variaveis*/
+:root {
+  --header-height: 4.5rem;
+
+
+/***fonts***/
+--title-font-size: 1.875rem;
+--subtitle-font-size: 1rem;
+
+--title-font:'Poppins', sans-serif;
+--body-font: 'Open Sans', sans-serif;
 }
 
+/*base*/
+html {
+  scroll-behavior: smooth;
+}
 
-
+body {
+  font: 400 1rem var(--body-font)
+}

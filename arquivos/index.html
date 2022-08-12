@@ -1,54 +1,95 @@
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
+    <meta charset="UTF-8" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <meta charset="UTF-8" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Emanuel 433</title>
 
-    <link rel="stylesheet" href="style.css" />
-
     <link
-      href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&family=Open+Sans&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@700&display=swap"
       rel="stylesheet"
     />
+
+    <link rel="stylesheet" href="style.css" />
   </head>
-
   <body>
-    <div class="page">
-      <nav>
-        <a id="logo" href="#">
-          <h2>Emanuel 433</h2>
-        </a>
+    <header id="header">
+      <nav class="container">
+        <a href="#">Emanuel<span>433</span>.</a>
 
-        <ul>
-          <li><a href="#">Sobre</a></li>
-          <li><a href="#">Cultura</a></li>
-          <li><a href="#">Projetos</a></li>
-        </ul>
+        <!--Menu-->
+        <div class="menu">
+          <ul class="grid">
+            <li><a class="title" href="#">Home</a></li>
+            <li><a class="title" href="#">Sobre</a></li>
+            <li><a class="title" href="#">Projetos</a></li>
+            <li><a class="title" href="#">Contato</a></li>
+          </ul>
+        </div>
       </nav>
+    </header>
+    <main>
+      <!--HOME-->
+      <section class="section" id="home">
+        <div class="container grid">
+          <div class="image">
+            <img
+              src="images/minhaFoto.jpeg"
+              alt="minha foto em um fundo amarelo"
+            />
+          </div>
+          <div class="text">
+            <h1 class="title">Meu nome é Emanuel de Araújo!</h1>
+            <p>
+              Desenvolvedor front end. apaixonado por ficção ciêntifica, música
+              e sobrevivência em ambientes remotos!
+            </p>
+          </div>
+        </div>
+      </section>
 
-      <main>
-        <img src="images/minhaFoto.jpeg" alt="foto do emanuel" />
-
-        <section class="text">
-          <h1>Emanuel 433!</h1>
-          <p>
-            Meu nome é Emanuel! já fui estudante de
-            <strong>geografia, geologia</strong>
-            entregador de queijo e garçom, hoje estou aprendendo
-            <strong>programação!</strong>
-          </p>
-        </section>
-      </main>
-      <footer>
-        minhas redes
-        <a href="https://www.instagram.com/emanuel.bitencourt/" target="_blank"
-          >Instagram</a
-        >
-      </footer>
-    </div>
+      <!--Sobre-->
+      <section class="section" id="about">
+        <div class="container grid">
+          <div class="image">
+            <img src="images/8513879.jpg" alt="eu andando de bicicleta" />
+          </div>
+          <div class="text">
+            <h2 class="title">Quem sou</h2>
+            <p>
+              Popularmente conhecido como Manel, sou uma pessoa muito
+              comunicativa e extrovertida.Casado, pai de um garoto maravilhoso,
+              amo proporcionar boas lembranças para os fiéis companheiros que a
+              vida me deu! Gosto de comédias estilo Hermes e Renato, sou
+              percussionista e baterista ( inclusive tenho música no spotfy)
+            </p>
+            <br />
+            <p>
+              Pratico mountain bike e gosto de desafiar meu corpo e mente, ora
+              entrando em trilhas desconhecidas e ficando "perdido" tendo que
+              encontar no meu conhecimento de localização a saída (sou bom em
+              referenciamento) ou fazendo longos pedais que desafiam a
+              rsistência do meu corpo.
+            </p>
+            <a class="button" href="#">Spotfy</a>
+          </div>
+        </div>
+      </section>
+      <!--PROJETOS-->
+      <section class="section" id="projects"></section>
+      <!--CONTACT-->
+      <section class="section" id="contact">
+        <div class="container grid">
+          <div class="text">
+            <h2 class="title">Entre em contato!</h2>
+            <p>Aguardo seu contato</p>
+            <a href="#"><i class=""></i>contato</a>
+          </div>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
