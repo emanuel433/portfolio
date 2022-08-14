@@ -94,6 +94,15 @@ nav ul li a {
   position: relative;
 }
 
+/*LOGO*/
+
+.logo {
+  font: 700 1.31rem var(--title-font);
+}
+
+.logo span {
+  color: blue;
+}
 /*HOME*/
 #home {
   overflow: hidden;
