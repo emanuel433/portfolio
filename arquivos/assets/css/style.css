@@ -6,15 +6,15 @@
 }
 /*overflow x elimina o scroll lateral*/
 body {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 13px;
   overflow-x: hidden;
 }
 
 header {
   height: 100px;
-  background-color: aqua;
-  color: brown;
+  background-color:#12123D;
+  color: #D4AA00;
 }
 
 .head {
@@ -33,10 +33,10 @@ header {
 }
 
 .logo span {
-  color: blue;
+  color: #0295A9;
   padding-left: 4px;
-  font-family: 'Times New Roman', Times, serif;
-  font-size: 38px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
 }
 
 .menu {
@@ -56,7 +56,7 @@ header {
 }
 
 .menu li a {
-  color: crimson;
+  color: #FFFFFF;
   text-transform: uppercase;
   text-decoration: none;
   padding-left: 10px;
@@ -69,12 +69,12 @@ header {
 .menu li a:hover,
 .menu .active a {
   border-bottom: 2px solid royalblue ;
-  color: #555;
+  color: #D4AA00;
 }
 
 .banner {
   height: calc(100vh - 100px);
-  background-color: blueviolet;
+  
   background-image: url(../images/minhaFoto.jpeg);
   background-size: cover;
   
@@ -119,7 +119,7 @@ header {
   text-transform: uppercase;
   margin-top: 10px;
   font-size: 24px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 .button {
