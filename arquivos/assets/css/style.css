@@ -1,0 +1,144 @@
+/*----RESET----*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*overflow x elimina o scroll lateral*/
+body {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 13px;
+  overflow-x: hidden;
+}
+
+header {
+  height: 100px;
+  background-color: aqua;
+  color: brown;
+}
+
+.head {
+  max-width: 1280px;
+  height: 100px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+/*cursor pointer faz ficar clicavel*/
+.logo {
+ width: 100px;
+ padding: 10px;
+ cursor: pointer;
+ text-transform: uppercase;
+}
+
+.logo span {
+  color: blue;
+  padding-left: 4px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 38px;
+}
+
+.menu {
+  flex:1;
+  display: flex;
+  justify-content: flex-end;
+
+}
+
+.menu ul,
+.menu li {
+  list-style: none;
+}
+
+.menu ul {
+  display: flex;
+}
+
+.menu li a {
+  color: crimson;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-weight: 600;
+  font-size: 16px;
+  
+} 
+
+.menu li a:hover,
+.menu .active a {
+  border-bottom: 2px solid royalblue ;
+  color: #555;
+}
+
+.banner {
+  height: calc(100vh - 100px);
+  background-color: blueviolet;
+  background-image: url(../images/minhaFoto.jpeg);
+  background-size: cover;
+  
+}
+
+.banner .dados {
+  width: 100vw;
+  height: 100%;
+}
+
+.banner .description {
+  width: 100vw;
+  height: 100%;
+  margin-top: 0px;
+  display: inline-block;
+  background-color: rgba(0,0,0,0.7);
+
+}
+
+.banner .infos {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  color: beige;
+}
+
+.banner h1 {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 48px;
+  text-shadow: 2px 2px 5px rgba(7, 7, 7, 0.492);
+}
+
+.banner h1 span {
+  margin-left: 70px;
+  color: coral;
+}
+
+.banner h2 {
+  text-transform: uppercase;
+  margin-top: 10px;
+  font-size: 24px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.button {
+  display: inline-block;
+  font-size: 11px;
+  background-color: aliceblue;
+  color: black;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 600;
+  margin-bottom: 10px;
+  padding: 10px 30px;
+  border-radius: 15px;
+  margin-top: 20px;
+  border-bottom: 1px solid transparent;
+  border-right: 1px solid transparent;
+}
+ .button:hover {
+  background-color: cadetblue;
+  color: chartreuse;
+  font-size: 16px;
+ }
